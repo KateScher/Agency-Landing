@@ -138,7 +138,7 @@
     justify-content: space-between;
 }
 
-.intro-info {
+.intro__info {
     display: flex;
     box-sizing: border-box;
     position: relative;
@@ -210,6 +210,12 @@
     background-color: #FF2D2D;
 }
 
+.action-link_red-transp {
+    color: #FF2D2D;
+    background-color: rgba(0, 0, 0, 0.0001);
+    border: 2px solid #FF2D2D;
+}
+
 .intro__video {
     display: flex;
     box-sizing: border-box;
@@ -220,3 +226,109 @@
     object-fit: cover;
     box-shadow: -2.2px -13.8px 73px rgba(0, 0, 0, 0.29);
 }
+
+/* Services */
+.services {
+    display: flex;
+    box-sizing: border-box;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    max-width: 1249px;
+    margin: 0 auto;
+    padding: 107px 0 90px;
+    justify-content: space-between;
+    border-bottom: 2px solid #ECECEC;
+}
+
+.services__info {
+    width: 539px;
+}
+
+.services__heading {
+    margin: 0;
+    margin-bottom: 50px;
+    font-family: 'Open Sans';
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0.422159px;
+    text-transform: uppercase;
+}
+
+.services__about {
+    margin: 0;
+    margin-bottom: 64px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400s;
+    line-height: 28px;
+}
+
+.services__items {
+    display: flex;
+    justify-content: end;
+    gap: 13px;
+    flex-wrap: wrap;
+    width: 610px;
+}
+
+.services__item {
+    width: 285px;
+    margin-bottom: 53px;
+    
+}
+
+.services__item_icon_mang::before {
+    content: '';
+    display: block;
+    width: 41px;
+    height: 41px;
+    background-image: url('img/Managment.svg');
+    background-repeat: no-repeat;
+    margin-bottom: 33px;
+}
+
+.services__item_icon_design::before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url('img/Pencil.svg');
+    background-repeat: no-repeat;
+    margin-bottom: 33px;
+}
+
+.services__item_icon_logo::before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url('img/Logo.svg');
+    background-repeat: no-repeat;
+    margin-bottom: 33px;
+}
+
+.services__item_icon_anim::before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url('img/Anime.svg');
+    background-repeat: no-repeat;
+    margin-bottom: 33px;
+}
+
+.services__title {
+    margin: 0;
+    margin-bottom: 13px;
+    font-family: 'Open Sans';
+    font-size: 24.0692px;
+    font-weight: 600;
+    line-height: 0px;
+}
+
+.services__text {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 28px;
+    }
