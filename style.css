@@ -425,7 +425,7 @@
     text-align: center;
 }
 
-.hor-line {
+/* .hor-line {
     width: 130px;
     height: 2px;
     background-color: rgb(255, 45, 45, 1);
@@ -434,9 +434,25 @@
 
 .hor-line_center {
     margin: 0 auto;
+} */
+
+.feature__line {
+    width: 130px;
+    height: 2px;
+    background-color: rgb(255, 45, 45, 1);
+    border: none;
+    margin: 0 auto;
 }
 
-.hor-line_left {
+/* .hor-line_left {
+    margin: 0;
+} */
+
+.team__line {
+    width: 130px;
+    height: 2px;
+    background-color: rgb(255, 45, 45, 1);
+    border: none;
     margin: 0;
 }
 
