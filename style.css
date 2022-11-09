@@ -399,9 +399,9 @@
     padding: 105px 0 65px;
 }
 
-.feature__header {
+/* .feature__header {
     margin-bottom: 88px;
-}
+} */
 
 .feature__heading {
     margin: 0;
@@ -461,6 +461,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 58px;
+    padding-top: 88px;
 }
 
 .filter__list {
@@ -553,9 +554,17 @@
     flex-direction: column;
 }
 
-@supports (display: contents) {
+/* @supports (display: contents) {
     .team__inner {
         display: contents;
+    }
+} */
+
+@supports (grid-template-columns: subgrid) {
+    .team__inner {
+        display: grid;
+        grid-template-columns: subgrid;
+        grid-template-rows: subgrid;
     }
 }
 
