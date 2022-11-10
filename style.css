@@ -465,7 +465,8 @@
     margin: 0 auto;
 } */
 
-.feature__line {
+.feature__header::after {
+    content: '';
     width: 130px;
     height: 2px;
     background-color: rgb(255, 45, 45, 1);
