@@ -478,13 +478,13 @@
     margin: 0;
 } */
 
-.team__line {
+/* .team__line {
     width: 130px;
     height: 2px;
     background-color: rgb(255, 45, 45, 1);
     border: none;
     margin: 0;
-}
+} */
 
 .filter {
     display: flex;
@@ -544,7 +544,19 @@
 }
 
 .team__header {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
     margin-bottom: 67px;
+}
+
+.team__header::after {
+    content: '';
+    width: 130px;
+    height: 2px;
+    background-color: rgb(255, 45, 45, 1);
+    border: none;
+    /* margin: 0 auto; */
 }
 
 .team__heading {
