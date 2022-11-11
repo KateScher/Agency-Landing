@@ -47,12 +47,17 @@
     scroll-behavior: smooth;
 }
 
+button {
+    cursor: pointer;
+}
+
 /* Page */
 .page {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
+    padding-bottom: 1000px; 
 }
 
 
@@ -71,6 +76,10 @@
 
 .page__inner_white {
     background-color: #FFFFFF;
+}
+
+.page__inner_dark {
+    background-color: #2C2C2C;
 }
 
 .page__inner_section {
@@ -699,4 +708,67 @@
 
 .team__other:hover > .team__other-name {
     display: block;
+}
+
+/* subscribe */
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1249px;
+    margin: 0 auto;
+    padding: 150px 0 140px;
+}
+
+.subscribe__heading {
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+    margin-bottom: 17px;
+}
+
+.subscribe__about {
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 59px;
+}
+
+.subscribe__form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.subscribe__input {
+    width: 521px;
+    height: 79px;
+    padding: 0 36px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.subscribe__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 214px;
+    height: 79px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #FFFFFF;
+    background-color: #FF2D2D;
+    text-transform: uppercase;
+
 }
