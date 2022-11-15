@@ -352,14 +352,15 @@ button {
 .services__items {
     display: flex;
     justify-content: end;
-    gap: 13px;
+    gap: 53px 13px;
     flex-wrap: wrap;
     width: 610px;
 }
 
 .services__item {
     width: 285px;
-    margin-bottom: 53px;
+    min-height: 300px;
+    /* margin-bottom: 53px; */
     
 }
 
