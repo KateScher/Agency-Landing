@@ -83,7 +83,7 @@ button {
 }
 
 .page__inner_section {
-    padding: 102px 0 110px;
+    padding: 87px 0 110px;
 }
 
 .page__inner_part {
@@ -182,7 +182,7 @@ button {
     flex-direction: column;
     width: 100%;
     max-width: 595px;
-    bottom: 15px;
+    /* bottom: 15px; */
 }
 
 @media screen and (max-width: 700px) {
@@ -290,6 +290,10 @@ button {
     height: 356px;
     object-fit: cover;
     box-shadow: -2px -14px 73px rgba(0, 0, 0, 0.29);
+}
+
+.intro__position {
+    padding-top: 15px;
 }
 
 @media screen and (max-width: 700px) {
