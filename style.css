@@ -529,6 +529,12 @@ button {
     gap: 57px;
 }
 
+@media screen and (max-width: 600px) {
+    .filter__list {
+        justify-content: center;
+    }
+}
+
 .filter__link {
     font-family: 'Open Sans', sans-serif;
     font-size: 22px;
@@ -559,6 +565,22 @@ button {
     object-fit: cover;
     object-position: 0% 50%;
 }
+
+@media screen and (max-width: 1240px) {
+    .feature__product {
+        width: 100%;
+        flex: 1 1 0;
+        /* flex-wrap: nowrap; */
+    }
+    }
+
+@media screen and (max-width: 800px) {
+    .feature__product {
+        width: 100%;
+        padding-left: 1px;
+        flex: 1 1 0;
+    }
+    }
 
 /* Team */
 .team {
@@ -1003,6 +1025,7 @@ button {
     width: 1249px;
     min-height: 111px;
     margin: 0 auto;
+    padding-top: 11px;
     display: flex;
     justify-content: space-between;
     align-items: center;
