@@ -302,7 +302,8 @@ button {
 
 @media screen and (max-width: 1240px) {
     .intro__video {
-        width: 50%;
+        width: 100%;
+        flex: 1 1 0;
         /* flex-wrap: nowrap; */
     }
     }
@@ -310,6 +311,7 @@ button {
 @media screen and (max-width: 800px) {
     .intro__video {
         width: 100%;
+        flex: 1 1 0;
     }
     }
 
