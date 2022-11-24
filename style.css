@@ -171,6 +171,12 @@ button {
     background-color: var(--global-color);
 }
 
+@media screen and (max-width: 800px) {
+    .site-menu {
+        display: none;
+    }
+}
+
 /*Main*/
 /* Intro */
 
