@@ -53,6 +53,7 @@ button {
 
 /* Page */
 .page {
+    --global-color: #FF3F40;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -120,7 +121,7 @@ button {
     max-width: 1249px;
     min-height: 89px;
     margin: 0 auto;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .site-menu {
@@ -163,11 +164,11 @@ button {
 }
 
 .site-menu__link:hover {
-    background-color: #FF3F40;
+    background-color: var(--global-color);
 }
 
 .site-menu__link_active {
-    background-color: #FF3F40;
+    background-color: var(--global-color);
 }
 
 /*Main*/
@@ -668,7 +669,7 @@ button {
     content: '';
     width: 130px;
     height: 2px;
-    background-color: rgb(255, 45, 45, 1);
+    background-color: rgb(255, 45, 45);
     border: none;
     /* margin: 0 auto; */
 }
@@ -715,7 +716,7 @@ button {
 .team__lead-photo {
     object-position: bottom;
     object-fit: contain;
-    background-color: #FF3F40;
+    background-color: var(--global-color);
     grid-column: 1 / 2;
     grid-row: 1 / 3;
 }
@@ -804,7 +805,7 @@ button {
 
 .team__other-photo {
     display: block;
-    background-color: #FF3F40;
+    background-color: var(--global-color);
 }
 
 .team__other-name {
