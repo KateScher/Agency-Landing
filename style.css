@@ -1199,6 +1199,10 @@ button {
 }
 
 .contacts__address {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 100%;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     line-height: 1.75;
