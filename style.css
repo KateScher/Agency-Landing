@@ -116,8 +116,10 @@ button {
 
 /* Header */
 .header {
+    position: fixed;
     display: flex;
     justify-content: center;
+    width: 100%;
     max-width: 1249px;
     min-height: 89px;
     margin: 0 auto;
@@ -171,6 +173,82 @@ button {
     background-color: var(--global-color);
 }
 
+@media screen and (max-width: 800px) {
+    .site-menu {
+        display: none;
+    }
+}
+
+/*Popup menu*/
+.popup-menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.popup-menu__button {
+    display: block;
+    width: 200px;
+    height: 80px;
+    background-image: url('img/menu-icon.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.popup-menu__list {
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 100%);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.popup-menu__item {
+    display: flex;
+    min-height: 89px;
+}
+
+.popup-menu__link {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 30px; */
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#E0E0E0;
+}
+
+.popup-menu__link:hover {
+    background-color: var(--global-color);
+}
+
+.popup-menu__link_active {
+    background-color: var(--global-color);
+}
+
+@media screen and (min-width: 800px) {
+    .popup-menu {
+        display: none;
+    }
+}
+
 /*Main*/
 /* Intro */
 
@@ -181,6 +259,7 @@ button {
     /* width: 100%; */
     max-width: 1249px;
     margin: 0 auto;
+    padding-top: 88px;
     justify-content: space-between;
 }
 
@@ -323,7 +402,7 @@ button {
 .intro__video {
     display: flex;
     box-sizing: border-box;
-    position: relative;
+    /* position: relative; */
     flex-direction: column;
     max-width: 551px;
     width: 100%;
@@ -333,13 +412,13 @@ button {
     box-shadow: -2px -14px 73px rgba(0, 0, 0, 0.29);
 }
 
-@media screen and (max-width: 1286px) {
+/* @media screen and (max-width: 1286px) {
     .intro__video {
-        /* width: 50%; */
+        width: 50%; */
         /* flex: 1 1 0; */
-        /* flex-wrap: nowrap; */
+        /* flex-wrap: nowrap;
     }
-    }
+    } */
 
 @media screen and (max-width: 800px) {
     .intro__video {
@@ -1205,3 +1284,7 @@ button {
     gap: 18px;
 }
 
+/*JS*/
+.hide {
+    display: none;
+}
