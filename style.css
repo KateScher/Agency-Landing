@@ -53,6 +53,7 @@ button {
 
 /* Page */
 .page {
+    min-width: 350px;
     --global-color: #FF3F40;
     font-family: 'Open Sans';
     font-style: normal;
@@ -324,14 +325,14 @@ button {
     /* margin-left: 2px; */
 }
 
-/* @media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
     .intro__heading {
         font-size: 50px;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
     }
     }
 
-@media screen and (max-width: 1249px) {
+/* @media screen and (max-width: 1249px) {
     .intro__heading {
         font-size: 5vw;
     }
