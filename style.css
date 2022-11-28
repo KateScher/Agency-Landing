@@ -43,6 +43,25 @@
     url('fonts/open-sans-v34-latin-800italic.woff') format('woff');
 }
 
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/open-sans-v34-latin-regular.woff2') format('woff2'), 
+    url('../fonts/open-sans-v34-latin-regular.woff') format('woff'); 
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+    url('../fonts/open-sans-v34-latin-800.woff2') format('woff2'), 
+    url('../fonts/open-sans-v34-latin-800.woff') format('woff');
+  }
+
 :root {
     scroll-behavior: smooth;
 }
@@ -244,7 +263,7 @@ button {
     background-color: var(--global-color);
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 801px) {
     .popup-menu {
         display: none;
     }
