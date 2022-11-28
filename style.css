@@ -320,6 +320,7 @@ button {
     .intro__info {
         width: 100%;
         margin-bottom: 80px;
+        text-align: center;
     }
     }
 
@@ -396,10 +397,18 @@ button {
     text-decoration: none;
 }
 
+@media screen and (max-width: 800px) {
+    .action-link {
+        margin: 0 auto;
+    }
+    }
+
 .action-link_red-full {
     color: rgb(255, 255, 255);
     background-color: #FF2D2D;
 }
+
+
 
 .action-link_red-transp {
     color: #FF2D2D;
@@ -449,6 +458,12 @@ button {
     padding-top: 15px;
 }
 
+@media screen and (max-width: 800px) {
+    .intro__position {
+        margin: 0 auto;
+    }
+    }
+
 /* Services */
 .services {
     display: flex;
@@ -468,6 +483,15 @@ button {
     width: 539px;
     margin-right: 103px;
 }
+
+@media screen and (max-width: 800px) {
+    .services__info {
+        margin-right: 0;
+        margin: 0 auto;
+        margin-bottom: 29px;
+        text-align: center;
+    }
+    }
 
 .services__heading {
     margin: 0;
@@ -1227,7 +1251,7 @@ button {
 .contacts {
     box-sizing: border-box;
     justify-self: end;
-    width: 315px;
+    width: 411px;
     padding: 141px 17px 141px 79px;
 }
 
@@ -1303,6 +1327,7 @@ button {
     .contacts {
         width: 100%;
         max-width: 100%;
+
     }
 }
 
