@@ -321,6 +321,7 @@ button {
         width: 100%;
         margin-bottom: 80px;
         text-align: center;
+        padding-right: 0px;
     }
     }
 
@@ -379,6 +380,12 @@ button {
     margin-left: 5px;
 }
 
+@media screen and (max-width: 800px) {
+    .intro__text {
+        display: flex;
+    }
+    }
+
 .action-link {
     font-family: 'Open Sans', sans-serif;
     display: flex;
@@ -434,7 +441,7 @@ button {
     max-width: 551px;
     width: 100%;
     /* width: min(50%, 551px); */
-    height: 356px;
+    /* height: 356px; */
     object-fit: cover;
     box-shadow: -2px -14px 73px rgba(0, 0, 0, 0.29);
 }
