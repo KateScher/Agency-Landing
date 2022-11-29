@@ -764,13 +764,27 @@ button {
     flex: 1 1;
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (min-width: 1200px) and (max-width: 1249x) {
     .feature__product {
         width: calc(100% / 3 - 30px);
+    }
+    }
+
+@media screen and (min-width: 800px) and (max-width: 1180px) {
+    .feature__product {
         /* width: 100%; */
+        width: calc(100% / 3 - 30px);
         flex: 1 1 0;
     }
     }
+
+/* @media screen and (max-width: 1180px) {
+    .feature__product {
+        width: calc(100% / 4 - 30px);
+        width: 100%;
+        flex: 1 1 0;
+    }
+    } */
 
 @media screen and (max-width: 800px) {
     .feature__product {
@@ -788,7 +802,7 @@ button {
             padding-left: 1px;
             flex: 1 1 0;
         }
-        }    
+    }
 
 /* Team */
 .team {
