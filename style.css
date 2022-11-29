@@ -1049,10 +1049,14 @@ button {
 .subscribe__email {
     width: 521px;
     height: 79px;
-    padding: 0 36px;
+    /* padding: 0 36px; */
     border: none;
     border-radius: 5px;
     background-color: #FFFFFF;
+}
+
+.subscribe__form input::placeholder {
+    padding-left: 36px;
 }
 
 .subscribe__button {
