@@ -481,7 +481,7 @@ button {
     margin: 0 auto;
     padding: 0 1vw;
     padding-top: 97px;
-    padding-bottom: 90px;
+    /* padding-bottom: 90px; */
     justify-content: space-between;
     border-bottom: 2px solid #ECECEC;
 }
@@ -527,7 +527,7 @@ button {
     /* gap: 21px 13px; */
     flex-wrap: wrap;
     max-width: 609px;
-    /* padding-top: 10px; */
+    padding-top: 10px;
 }
 
 @media screen and (max-width: 950px) {
