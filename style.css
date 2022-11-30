@@ -62,6 +62,10 @@
     url('../fonts/open-sans-v34-latin-800.woff') format('woff');
   }
 
+* {
+    box-sizing: border-box;
+}
+
 :root {
     scroll-behavior: smooth;
 }
@@ -74,7 +78,7 @@ button {
 .page {
     min-width: 350px;
     --global-color: #FF3F40;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px; 
