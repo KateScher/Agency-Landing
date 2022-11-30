@@ -764,7 +764,7 @@ button {
     flex: 1 1;
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1249x) {
+@media screen and (min-width: 1200px) and (max-width: 1249px) {
     .feature__product {
         width: calc(100% / 3 - 30px);
     }
@@ -1053,6 +1053,7 @@ button {
     font-size: 42px;
     font-weight: 700;
     line-height: 1.2;
+    letter-spacing: 1.05px;
     margin: 0;
     margin-bottom: 17px;
 }
@@ -1079,15 +1080,15 @@ button {
 .subscribe__email {
     width: 451px;
     height: 79px;
-    /* padding: 0 36px; */
+    padding: 0 36px;
     border: none;
     border-radius: 5px;
     background-color: #FFFFFF;
 }
 
-.subscribe__form input::placeholder {
-    padding-left: 36px;
-}
+/* .subscribe__form input::placeholder {
+    padding-left: 1px;
+} */
 
 .subscribe__button {
     display: flex;
