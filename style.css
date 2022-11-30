@@ -333,12 +333,12 @@ button {
     width: 100%;
     max-width: 545px; */
     font-family: 'Open Sans', sans-serif;
-    font-size: clamp(2em, 2em + 2vw, 60px);
-    line-height: 1.2;
+    font-size: clamp(2em, 2em + 2vw, 57px);
+    line-height: 1.31;
     /* line-height: 72px; */
     font-weight: 800;
     font-variation-settings: "wght" 800;
-    letter-spacing: 1.5px;
+    letter-spacing: -1.2px;
     text-transform: uppercase;
     margin: 0;
     margin-bottom: 19px;
@@ -828,6 +828,13 @@ button {
     padding-left: 3px;
 }
 
+
+@media (max-width: 1260px) {
+    .team__header {
+        padding-left: 10px;
+    }
+}
+
 .team__header::after {
     content: '';
     width: 130px;
@@ -931,6 +938,7 @@ button {
     margin-bottom: 46px;
 }
 
+
 .team__lead-social {
     display: flex;
     flex-wrap: wrap;
@@ -1016,6 +1024,7 @@ button {
     }
     .team__lead-social {
         justify-content: center;
+        flex-direction: column;
     }
     .team__others {
         justify-content: center;
@@ -1068,7 +1077,7 @@ button {
 }
 
 .subscribe__email {
-    width: 521px;
+    width: 451px;
     height: 79px;
     /* padding: 0 36px; */
     border: none;
@@ -1126,7 +1135,7 @@ button {
 
 @media (max-width: 1260px) {
     .feedback__header {
-        padding-left: 1vw;
+        padding-left: 10px;
     }
 }
 
